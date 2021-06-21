@@ -27,7 +27,7 @@ public LaunchGame() {
 	@Override
 	public void start(Stage stage) throws Exception {
 		// TODO Auto-generated method stub
-		Parent root = FXMLLoader.load(getClass().getResource("LaunchMenu.fxml"));
+		Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("LaunchMenu.fxml"));
 		
 		Scene scene = new Scene(root);
 		stage.setScene(scene);

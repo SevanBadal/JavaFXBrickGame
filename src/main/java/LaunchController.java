@@ -37,7 +37,7 @@ public class LaunchController extends GameConfig{
 	*/
 	  @FXML
 	    void buttonPressed(ActionEvent event) throws Exception {
-	    	scene2Root = FXMLLoader.load(getClass().getResource("GameStart.fxml"));
+	    	scene2Root = FXMLLoader.load(getClass().getClassLoader().getResource("./GameStart.fxml"));
 	    	scene2 = new Scene(scene2Root);
 	    	
 	    	stage = (Stage)((Node)event.getSource()).getScene().getWindow();

@@ -78,7 +78,7 @@ public class GameStartController extends GameConfig{
     @FXML
     void menuReset(ActionEvent event) throws Exception {
     	//
-    	menuRoot = FXMLLoader.load(getClass().getResource("LaunchMenu.fxml"));
+    	menuRoot = FXMLLoader.load(getClass().getClassLoader().getResource("LaunchMenu.fxml"));
     	menu = new Scene(menuRoot);
     	stage = (Stage)((Node)event.getSource()).getScene().getWindow();
     	stage.setScene(menu);
