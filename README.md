@@ -3,9 +3,12 @@ JavaFX and FXML Brick Breaker Game - Java FX, FXML
 
 ![](demo.gif)
 
+# Install Java
+- `sdk install java 17.0.0-tem` 
 
 # Install Gradle
-check [this](https://github.com/jabedhasan21/java-hello-world-with-gradle/blob/master/README.md) for `gradle`  installation details
-
+- `sdk install gradle 7.5` 
+  
 # Build and Run
-`./gradlew run`
+- `gradle build`
+- `gradle run`
